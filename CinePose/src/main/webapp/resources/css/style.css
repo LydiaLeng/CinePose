@@ -1,0 +1,289 @@
+header{
+	height:450px;
+	background-image:url(../img/cinema2.jpg);
+	background-size:cover;
+	padding: 2%;
+}
+
+header h1{
+	margin-top: 6%;
+	font-size: 50px;
+	text-align: center;
+}
+
+header h2{
+	font-size: 22px;
+	text-align: center;
+}
+
+#description{
+	line-height: 20px;
+	color: white;
+	text-align: justify;
+	background-color:rgba(0, 0, 0, 0.7);
+	padding: 2%;
+	margin-top:10px;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+body{
+	background-size:cover;
+	background-image:url(../img/ban1.jpg);
+}
+
+#bloc{
+	width:1050px;
+	margin: auto;
+	color: #CC0000;
+	font-family:'trebuchet MS';
+	text-align: justify;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+header, footer{
+	width:1040px;
+	margin: auto;
+	color: #CC0000;
+	font-family:Broadway;
+	text-align: left;
+	padding: 5px;
+}
+
+/*navigation*/
+nav{
+    display: inline-block;
+    text-align: right;
+	margin-top: 72px;
+	padding: 0px;
+	list-style-type : none; 
+	margin-left : 580px; 
+}
+ 
+nav ul{
+    list-style-type: none;
+}
+ 
+nav li{
+    display: inline-block;
+    margin-right: 2.1%;
+	float: left;
+    height: 34px;
+    background-color: #8B020A;
+    margin: 0;
+}
+
+nav a{
+	display: block;
+	padding: 5px;
+    text-decoration: none;
+	font-family: Broadway, monospace;
+	font-size: 20px;
+	color: #FFFFCC;
+}
+
+nav a:hover{
+    color: #FFFFB9;
+    border-bottom: 3px solid #FFFFB9;
+	background-color:#E41F30;
+}
+
+/*corps de la page*/
+section h1{
+	font-family: Broadway, monospace;
+	font-size: 24px;
+	color: #CC0000;
+}
+
+section h2{
+	margin-left:350px;
+	font-size:16px;
+}
+
+section a{
+	padding-bottom: 2px;
+	color: #CC0000;
+}
+
+section a:hover{
+    color: #760001;
+}
+
+section{
+	margin: 30px 0.1% 0 0.5%;
+}
+
+/*Carte avec liens*/
+#paris_map {
+	text-align: center; 
+	margin-left: auto; 
+	margin-right: auto;
+	width:500px;
+	height:450px; 
+}
+
+#paris_map p {
+	border: none;
+	background-color: white;
+	text-align: left;
+}
+
+#map, aside {
+	display: inline-block;
+	vertical-align: top;
+    text-align: justify;
+	border-radius: 6px;
+	background-color: #FFFFCC;
+	padding: 1%;
+}
+
+#map{
+	width: 50%;
+    margin-right: 4%;
+}
+
+section h2{
+	text-align: right;
+	margin-right:5px;
+	font-size:16px;
+}
+
+aside{
+	width:40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*scrollbar pour la page d'accueil*/
+#target { 
+	height: 665px;
+}
+
+div.mousescroll {
+    overflow: hidden;
+}
+div.mousescroll:hover {
+    overflow-y: scroll;
+}
+
+
+p{
+	border: 1px #CC0000 solid;
+	background-color: #FFE79B;
+	padding: 2px;
+}
+
+/*pied de page*/
+footer{
+	text-align: center;
+}
+
+footer p{
+	border: 2px #CC0000 solid;
+	background-color: #FF9F82;
+	padding: 5px;
+}
+
+
+
+.link a{
+	text-align: center;
+	font-family: Broadway, monospace;
+	color: #CC0000;
+}
+
+.link a:hover{
+    color: #760001;
+}
+
+#search_result{
+	width: 800px;
+	border-radius:6px;
+	margin: 0 auto;
+	padding: 2%;
+	text-align: justify;
+	background-color:rgba(0, 0, 0, 0.7);
+	margin: 0 auto;
+	padding: 14px;
+	border: solid 2px black;
+	width: 600px;
+}
+
+.result {
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 6px;
+	background-color: #FFFFCC;
+	padding: 1%;
+	margin: 5px;
+	width:90%;
+}
+
+#notes, #average{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#notes{
+	width:70%;
+}
+
+td{
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#average{
+	width:100px;
+	height:60px;
+	background-color:rgba(153,51,0,0.1);
+	text-align:center;
+	padding-top:25px;
+	padding-bottom:15px;
+	margin:25px 10px 0 0;
+}
+#average b{
+	font-size: 22px;
+	margin:0 auto;
+}
+
+.contact_form_class {
+	margin:auto;
+	width:30%;
+	height:50%
+}
+
+/*notation jauge*/
+.eval_bar {
+    background: none repeat scroll 0 0 #E7EBF0;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    height: 10px;
+    margin: 0 3px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 155px;
+}
+
+.eval_bar_cinema {
+    background: none repeat scroll 0 0 #E7EBF0;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    height: 10px;
+    margin: 0 3px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.eval_bar .eval_bar_inner {
+    background: none repeat scroll 0 0 #FFCB00;
+    display: block;
+    height: 10px;
+}
+
+.eval_bar_cinema .eval_bar_inner {
+    background: none repeat scroll 0 0 #FFCB00;
+    display: block;
+    height: 10px;
+}
